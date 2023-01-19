@@ -1,0 +1,337 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul li {
+  list-style: none;
+}
+
+.formulario {
+  width: 450px;
+  margin: auto;
+  background-color: chocolate;
+  padding: 10px;
+  color: black;
+  font-size: 1.7rem;
+  border-radius: 15px;
+  justify-content: center;
+  align-items: center;
+}
+.formulario__button {
+  background-color: saddlebrown;
+  color: black;
+  font-size: 1.9rem;
+}
+
+.formulario {
+  width: 450px;
+  margin: auto;
+  background-color: chocolate;
+  padding: 10px;
+  color: black;
+  font-size: 1.7rem;
+  border-radius: 15px;
+  justify-content: center;
+  align-items: center;
+}
+.formulario__button {
+  background-color: saddlebrown;
+  color: black;
+  font-size: 1.9rem;
+}
+
+.productos {
+  background-color: coral;
+}
+.productos__btn {
+  font-size: 1.5rem;
+  padding: 7px 10px;
+  border: 3px solid coral;
+  border-radius: 15px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  background-color: chocolate;
+  padding: 20px;
+}
+.header__titulo {
+  color: black;
+  font-size: 3rem;
+}
+.header__titulo__ul {
+  display: flex;
+}
+.header__titulo__ul__item {
+  text-align: center;
+  padding: 10px;
+  font-size: 1.9rem;
+}
+.header__titulo__ul__item__link {
+  text-decoration: none;
+  color: black;
+}
+
+.productos {
+  background-color: coral;
+}
+.productos__titulo {
+  color: saddlebrown;
+  text-align: center;
+  font-size: 3rem;
+  padding: 20px;
+}
+.productos__titulo__texto {
+  color: saddlebrown;
+  font-size: 1.8rem;
+  text-align: justify;
+  text-align: center;
+  padding: 10px;
+}
+.productos__titulo__texto__conteiner {
+  display: flex;
+  grid-template-columns: 1fr 1fr 1fr;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.productos__titulo__texto__conteiner__img {
+  background-color: saddlebrown;
+  width: 35vh;
+  height: 55vh;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.productos__titulo__texto__conteiner__img__tarjeta {
+  padding: 30px;
+}
+.productos__titulo__texto__conteiner__img__tarjeta__img img {
+  width: 95%;
+}
+.productos__titulo__texto__conteiner__img__tarjeta__img img__h3 {
+  color: chocolate;
+  font-size: 1.5rem;
+}
+.productos__titulo__texto__conteiner__img__tarjeta__img img__h3__span {
+  color: chocolate;
+  font-size: 1.8rem;
+}
+.productos__titulo__texto__conteiner__img__tarjeta__img img__h3__span__btn {
+  font-size: 1.5rem;
+  padding: 7px 10px;
+  border: 3px solid coral;
+  border-radius: 15px;
+}
+
+.redes__conteiner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  justify-content: center;
+}
+.redes__conteiner__img {
+  width: 50%;
+  margin: 20px;
+  justify-content: center;
+}
+
+@media (min-width: 768px) {
+  .redes-conteiner {
+    display: grid;
+    grid-template-columns: repeat(3, 25%);
+    grid-template-rows: repeat(1, 25vh);
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  background-color: chocolate;
+  padding: 20px;
+}
+.header__titulo {
+  color: black;
+  font-size: 3rem;
+}
+.header__titulo__ul {
+  display: flex;
+}
+.header__titulo__ul__item {
+  text-align: center;
+  padding: 10px;
+  font-size: 1.9rem;
+}
+.header__titulo__ul__item__link {
+  text-decoration: none;
+  color: black;
+}
+
+@media (min-width: 1200px) {
+  header {
+    display: flex;
+    justify-content: space-between;
+  }
+  header ul {
+    display: flex;
+  }
+}
+.portada {
+  background-color: coral;
+  height: 100vh;
+  width: 100%;
+}
+.portada__titulo {
+  color: saddlebrown;
+  font-size: 3rem;
+  text-align: center;
+  padding: 30px;
+}
+.portada__titulo__texto {
+  color: saddlebrown;
+  font-size: 1.5rem;
+  text-align: justify;
+  text-align: center;
+  padding: 10px;
+}
+.portada__titulo__texto__img {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.portada__titulo__texto__img__imgintro {
+  width: 70%;
+  border-radius: 20px;
+}
+
+.requisitos {
+  background-color: coral;
+  height: 100%;
+}
+.requisitos__titulo {
+  color: saddlebrown;
+  font-size: 3rem;
+  text-align: center;
+  padding: 20px;
+}
+.requisitos__titulo__list {
+  color: saddlebrown;
+  font-size: 1.5rem;
+  text-align: justify;
+  text-align: left;
+  padding: 20px;
+  margin: 20px;
+}
+.requisitos__titulo__list__img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+}
+.requisitos__titulo__list__img__animales {
+  border-radius: 20px;
+  width: 100%;
+}
+
+.frecuentes {
+  background-color: coral;
+}
+.frecuentes__titulo {
+  color: saddlebrown;
+  font-size: 3rem;
+  text-align: center;
+  padding: 20px;
+}
+.frecuentes__titulo__preguntas {
+  color: saddlebrown;
+  font-size: 1.8rem;
+  text-align: left;
+  padding: 10px;
+}
+.frecuentes__titulo__preguntas__respuestas {
+  color: saddlebrown;
+  font-size: 1.5rem;
+  text-align: justify;
+  text-align: left;
+  padding: 10px;
+}
+.frecuentes__titulo__preguntas__respuestas__conteiner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+}
+.frecuentes__titulo__preguntas__respuestas__conteiner__img {
+  border-radius: 20px;
+  width: 100%;
+}
+
+.footer {
+  background-color: chocolate;
+  padding: 20px;
+}
+.footer__titulos {
+  font-size: 2.5rem;
+  color: coral;
+  text-align: center;
+  padding: 10px;
+}
+.footer__titulos__items {
+  color: coral;
+  text-align: center;
+  font-size: 1.4rem;
+}
+
+.footer {
+  background-color: chocolate;
+  padding: 20px;
+}
+.footer__titulos {
+  font-size: 2.5rem;
+  color: coral;
+  text-align: center;
+  padding: 10px;
+}
+.footer__titulos__items {
+  color: coral;
+  text-align: center;
+  font-size: 1.4rem;
+}
+
+.formulario {
+  width: 450px;
+  margin: auto;
+  background-color: chocolate;
+  padding: 10px;
+  color: black;
+  font-size: 1.7rem;
+  border-radius: 15px;
+  justify-content: center;
+  align-items: center;
+}
+.formulario__input {
+  padding: 10px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+.formulario__input__button {
+  background-color: saddlebrown;
+  color: black;
+  font-size: 1.9rem;
+}
+
+/*# sourceMappingURL=style.css.map */

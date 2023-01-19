@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    background-color: chocolate;
+    padding: 20px;
+
+    &__titulo{
+        color: black;
+        font-size: 3rem;
+
+    &__ul{
+        display: flex;
+
+    &__item{
+        text-align: center;
+        padding: 10px;
+        font-size: 1.9rem;
+
+    &__link{
+        text-decoration: none;
+        color: black;
+    }    
+    }
+    }
+}
+}

@@ -1,0 +1,82 @@
+.productos{
+    background-color: coral;
+
+    &__titulo{
+        color: saddlebrown;
+        text-align: center;
+        font-size: 3rem;
+        padding: 20px;
+
+    &__texto{
+        color: saddlebrown;
+        font-size: 1.8rem;
+        text-align: justify;
+        text-align: center;
+        padding: 10px;
+
+    &__conteiner{
+        display: flex;
+        grid-template-columns: 1fr 1fr 1fr;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+
+    &__img{
+        background-color: saddlebrown;
+        width: 35vh;
+        height: 55vh;
+        padding: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+
+    &__tarjeta{
+        padding: 30px;
+
+    &__img img{
+        width: 95%;
+
+    &__h3{
+        color: chocolate;
+        font-size: 1.5rem;
+
+    &__span{
+        color: chocolate;
+        font-size: 1.8rem;
+
+    &__btn{
+        font-size: 1.5rem;
+        padding: 7px 10px;
+        border: 3px solid coral;
+        border-radius: 15px;
+    }    
+    }    
+    }    
+    }    
+    }    
+    }    
+    }    
+    }    
+    }
+}
+.redes__conteiner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+
+    &__img{
+        width: 50%;
+        margin: 20px;
+        justify-content: center;
+    }
+}
+@media (min-width: 768px) {
+    .redes-conteiner{
+        display: grid;
+        grid-template-columns: repeat(3,25%);
+        grid-template-rows: repeat(1,25vh);
+    }
+}

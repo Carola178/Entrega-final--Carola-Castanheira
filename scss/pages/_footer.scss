@@ -1,0 +1,17 @@
+.footer{
+    background-color: chocolate;
+    padding: 20px;
+
+    &__titulos{
+        font-size: 2.5rem;
+        color: coral;
+        text-align: center;
+        padding: 10px;
+
+    &__items{
+        color: coral;
+        text-align: center;
+        font-size: 1.4rem;
+        }
+    }
+}

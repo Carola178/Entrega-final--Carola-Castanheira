@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul li{
+    list-style: none;
+}
+.formulario{
+    width: 450px;
+    margin: auto;
+    background-color: chocolate;
+    padding: 10px;
+    color: black;
+    font-size: 1.7rem;
+    border-radius: 15px;
+    justify-content: center;
+    align-items: center;
+
+    &__button{
+        background-color: saddlebrown;
+        color: black;
+        font-size: 1.9rem;
+    }
+}

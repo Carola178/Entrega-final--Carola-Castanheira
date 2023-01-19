@@ -1,0 +1,288 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+/* --------header-------- */
+header{
+    background-color: chocolate;
+    padding: 20px;
+}
+header h1{
+    color: black;
+    font-size: 3rem;
+}
+header ul li{
+    text-align: center;
+    padding: 10px;
+    font-size: 1.9rem;
+}
+@media (min-width: 1200px) {
+    header {
+        display: flex;
+        justify-content: space-between;
+    }
+header ul{
+    display: flex;
+}
+}
+/* fin de mi header */
+
+/* primera section */
+.portada{
+    background-color: coral;
+    height: 100vh;
+    width: 100%;
+}
+.portada__titulo{
+    color: saddlebrown;
+    font-size: 3rem;
+    text-align: center;
+    padding: 30px;
+}
+.portada__texto{
+    color: saddlebrown;
+    font-size: 1.5rem;
+    text-align: justify;
+    text-align: center;
+    padding: 10px;
+}
+.portada__img{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.portada__imgintro{
+    width: 70%;
+    border-radius: 20px;
+}
+/* comienzo de mi primer section */
+.requisitos{
+    background-color: coral;
+    height: 100%;
+}
+.requisitos__titulo{
+    color: saddlebrown;
+    font-size: 3rem;
+    text-align: center;
+    padding: 20px;
+}
+.requisitos__list{
+    color: saddlebrown;
+    font-size: 1.5rem;
+    text-align: justify;
+    text-align: left;
+    padding: 20px;
+    margin: 20px;
+}
+.requisitos__conteiner{
+    display: flex;
+align-items: center;
+justify-content: center;
+width: 50%;
+}
+.requisitos__img{
+    border-radius: 20px;
+    width: 100%;
+}
+/* fin de mi primer section */
+
+/* la segunda section lleva las mismas clases que la primera */
+
+/* comienzo de tercer section */
+.frecuentes{
+    background-color: coral;
+
+}
+.frecuentes__titulo{
+    color: saddlebrown;
+    font-size: 3rem;
+    text-align: center;
+    padding: 20px;
+}
+.frecuentes__preguntas{
+    color: saddlebrown;
+    font-size: 1.8rem;
+    text-align: left;
+    padding: 10px;
+}
+.frecuentes__respuestas{
+    color: saddlebrown;
+    font-size: 1.5rem;
+    text-align: justify;
+    text-align: left;
+    padding: 10px;
+}
+.frecuentes__conteiner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+.frecuentes__img{
+    border-radius: 20px;
+    width: 100%;
+}
+
+/* fin de mi tercer section */
+
+/* comienzo de footer */
+.footer{
+    background-color: chocolate;
+    padding: 20px;
+}
+.footer__items{
+    color: coral;
+    text-align: center;
+    font-size: 1.4rem;
+    
+}
+.footer__titulos{
+    font-size: 2.5rem;
+    color: coral;
+    text-align: center;
+    padding: 10px;
+}
+/* fin de mi footer */
+
+/* comienzo de mi primer section page2 */
+.productos{
+    background-color: coral;
+}
+.productos__titulo{
+    color: saddlebrown;
+    text-align: center;
+    font-size: 3rem;
+    padding: 20px;
+}
+.productos__texto{
+    color: saddlebrown;
+    font-size: 1.8rem;
+    text-align: justify;
+    text-align: center;
+    padding: 10px;
+}
+.productos__conteiner{
+    display: flex;
+    grid-template-columns: 1fr 1fr 1fr;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    }
+/* -----tarjetas------*/
+.productos__img{
+    background-color: saddlebrown;
+    width: 35vh;
+    height: 55vh;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.productos__tarjeta{
+    padding: 30px;
+}
+.productos__img img{
+    width: 95%;
+}
+.productos__h3{
+    color: chocolate;
+    font-size: 1.5rem;
+}
+.productos__span{
+    color: chocolate;
+    font-size: 1.8rem;
+}
+.productos__btn{
+    font-size: 1.5rem;
+    padding: 7px 10px;
+    border: 3px solid coral;
+    border-radius: 15px;
+}
+.productos__seccion{
+    color: saddlebrown;
+    text-align: left;
+    font-size: 3rem;
+    padding: 20px;
+    background-color: coral ;
+}
+/* fin de page2 */
+
+/* ---formulario page4--- */
+.formulario{
+    width: 450px;
+    margin: auto;
+    background-color: chocolate;
+    padding: 10px;
+    color: black;
+    font-size: 1.7rem;
+    border-radius: 15px;
+    justify-content: center;
+    align-items: center;
+}
+.formulario__input{
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.formulario__button{
+    background-color: saddlebrown;
+    color: black;
+    font-size: 1.9rem;
+}
+/* tarjetas ubicacion page5 */
+.ubicacion__conteiner{
+    display: flex;
+    grid-template-columns: 1fr 1fr 1fr;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.ubicacion__tarjetas{
+    padding: 30px;
+}
+.ubicacion__img{
+    background-color: saddlebrown;
+    width: 50vh;
+    height: 60vh;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.ubicacion__img img{
+    width: 95%;
+}
+/* tarjetas redes sociales page5 */
+.redes__conteiner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+}
+.redes__conteiner img{
+    width: 50%;
+    margin: 20px;
+    justify-content: center;
+}
+@media (min-width: 768px) {
+    .redes-conteiner{
+        display: grid;
+        grid-template-columns: repeat(3,25%);
+        grid-template-rows: repeat(1,25vh);
+    }
+}
